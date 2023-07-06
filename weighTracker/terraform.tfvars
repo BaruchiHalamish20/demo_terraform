@@ -1,0 +1,9 @@
+resource_group_name = "weight-tracker-rg"
+location            = "westeu"
+vnet_name           = "weight-tracker-vnet"
+web_subnet_name     = "weight-tracker-web-snet"
+db_subnet_name      = "weight-tracker-db-snet"
+web_server_count    = 2
+web_server_size     = "Standard_B2s"
+db_server_count     = 1
+db_server_size      = "Standard_D2s_v4"
